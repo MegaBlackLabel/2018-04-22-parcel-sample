@@ -6,11 +6,11 @@
   "author": "底なし沼の魔女 <megablacklabel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./index.html"
+    "start": "parcel ./index.html --host 0.0.0.0 --port 3000"
   },
   "dependencies": {
-    "parcel-bundler": "^1.7.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "parcel-bundler": "^1.11.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
   }
 }
